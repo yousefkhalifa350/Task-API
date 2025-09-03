@@ -77,7 +77,7 @@ function displaydata() {
                         
                         <img class='w-100' src="${recipes[i].image_url}" alt="">
                         
-                        <h3 style="color: white;">${recipes[i].title.split(' ', 2).join(' ')}</h3>
+                        <h3>${recipes[i].title.split(' ', 2).join(' ')}</h3>
                     </div>
                 </div>
 
